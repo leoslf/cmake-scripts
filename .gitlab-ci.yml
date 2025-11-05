@@ -638,7 +638,7 @@ Windows/MSVC/Address Sanitizer:
   parallel:
     matrix:
       - ARCH: [amd64]
-        BUILD_SYSTEM: ["Ninja"]
+        BUILD_SYSTEM: ["Ninja", "Visual Studio 17 2022"]
   tags:
     - container
     - windows
